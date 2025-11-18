@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassInstitute.Application\ClassInstitute.Application.csproj" />
+    <ProjectReference Include="..\ClassInstitute.Domain\ClassInstitute.Domain.csproj" />
+    <ProjectReference Include="..\ClassInstitute.Infrastructure\ClassInstitute.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+@ClassInstitute.API.Server_HostAddress = http://localhost:5018
+
+GET {{ClassInstitute.API.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
